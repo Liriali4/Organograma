@@ -37,6 +37,8 @@
 }
 .deletar{
     position: relative;
-    right: -10px;
-    top: -10px;
+    left: 100px;
+    top: 25px;
+    color: #922121;
+    font-weight: bolder;
 }
