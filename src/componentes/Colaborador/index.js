@@ -1,7 +1,7 @@
  import './colaborador.css'
 
 
-const Colaborador = ({ colaborador, corDeFundo, aoDeletar}) => {
+const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar}) => {
     return (<div className="colaborador">
         <div 
             className="deletar" 
@@ -15,6 +15,9 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar}) => {
         <div className="rodape">
             <h4>{colaborador.nome}</h4>
             <h5>{colaborador.cargo}</h5>
+            <div className='favoritar'>
+                {colaborador.favorito ? 'favorito' : 'não favorito' onClick={aoFavoritar} }
+            </div>
         </div>
     </div>)
 }
