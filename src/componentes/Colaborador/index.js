@@ -2,7 +2,7 @@
 import {AiFillHeart, AiOutlineHeart} from 'react-icons/ai'
 import {TiUserDelete} from 'react-icons/ti'
 
-const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar}) => {
+const Colaborador = ({colaborador, corDeFundo, aoDeletar, aoFavoritar}) => {
     
     function favoritar() {
         aoFavoritar(colaborador.id)
