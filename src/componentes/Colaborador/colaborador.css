@@ -37,10 +37,8 @@
 }
 .deletar{
     position: relative;
-    left: 100px;
-    top: 25px;
-    color: #922121;
-    font-weight: bolder;
+    left: 115px;
+    top: 35px;    
 }
 
 .favoritar{
